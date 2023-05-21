@@ -1,0 +1,55 @@
+/*common css start */
+body{
+	margin: 0;
+	font-family:'playfair Display',serif ;
+	font-size:16px ;
+	font-weight:400 ;
+	color: #626262 ;
+}
+/*common css end */
+/*header css end */
+header{
+ padding: 45px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	/*border: 1px solid gray;*/
+}
+.logo img{
+	width: 100%;
+	float: left;
+}
+.menu{
+	width: 65%;
+	float: right;
+	/*border: 1px solid;*/
+}
+.menu ul{ float: right; 
+ margin: 0}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{ 
+	text-decoration: none;
+    padding:0 50px ; 
+    display: inline-block; 
+    text-transform: uppercase;
+    }
+
+.menu ul li :last-child a{ 
+padding right: 0; }
+.menu ul li a: hover{ 
+border-bottom: 1px solid #626262; }
+/*common css end */
+/*header end */
+/*banner start*/
+img{width: 100%;}
+
+/*banner end*/
